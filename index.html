@@ -1,54 +1,34 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-<meta charset="UTF-8">
-<title>API Tester like Postman</title>
-<style>
-    body { font-family: Arial, sans-serif; }
-    label, button { margin-top: 10px; display: block; }
-    textarea { width: 100%; height: 100px; }
-</style>
+<meta charset='utf-8'>
+<meta content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no' name='viewport'>
+<title>MiTaps Studio
+</title>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="cWcu5Gj6uZ4tFo0LvPdj4dpxjHPEckCP8XL1Bsbw5dZIjhez-vyjWYk3X19gEFWDeIlwp5NsEto3Qq60mFHnZA" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap" media="all" />
+
 </head>
 <body>
-    <h1>Simple API Tester</h1>
-    <label for="url">API URL:</label>
-    <input type="text" id="url" placeholder="Enter API URL" />
+<div id='root'></div>
 
-    <label for="method">HTTP Method:</label>
-    <select id="method">
-        <option value="GET">GET</option>
-        <option value="POST">POST</option>
-        <option value="PUT">PUT</option>
-        <option value="DELETE">DELETE</option>
-    </select>
-
-    <label for="body">Request Body (JSON):</label>
-    <textarea id="body"></textarea>
-
-    <button onclick="sendRequest()">Send Request</button>
-    <h2>Response:</h2>
-    <pre id="response"></pre>
-</body>
 
 <script>
-function sendRequest() {
-    const url = document.getElementById('url').value;
-    const method = document.getElementById('method').value;
-    const body = document.getElementById('body').value;
-
-    fetch(url, {
-        method: method,
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: method === 'GET' ? null : body
-    }).then(response => {
-        return response.json();
-    }).then(data => {
-        document.getElementById('response').textContent = JSON.stringify(data, null, 2);
-    }).catch(error => {
-        document.getElementById('response').textContent = 'Error: ' + error.message;
-    });
-}
+//<![CDATA[
+window.BOOTSTRAP={};BOOTSTRAP.is_banner=true;BOOTSTRAP.is_flagged=null;BOOTSTRAP.config={"version":"3.1.1","uploads_url":"https://d3jwyy9rhyhl55.cloudfront.net","sharefront_url":"https://bitdocs.ai","bugsnag_key":"8557fc600dcf8fe77acc9dfa314cff4e","ga4_key":"G-6MFGJ70LRP"};BOOTSTRAP.organization={"guid":"kvhFzMGoBlwp8q8N","name":"MiTaps Studio","subdomain":"mitapsstudio","domain":"mitapsstudio.bit.ai","domain_url":"https://mitapsstudio.bit.ai","sharefront_url":"https://mitapsstudio.bitdocs.ai","logo_url":null,"website":null,"security_config":null};BOOTSTRAP.doc_root_path="/share/d";
+//]]>
 </script>
+<script src="https://d350f6oe16dzvq.cloudfront.net/packs/v3/sharefront-BocU93K1.js" crossorigin="anonymous" type="module"></script><link rel="modulepreload" href="https://d350f6oe16dzvq.cloudfront.net/packs/v3/chunk-vendor-C8Wjh0ep.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d350f6oe16dzvq.cloudfront.net/packs/v3/chunk-doc-kk_tOdpI.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d350f6oe16dzvq.cloudfront.net/packs/v3/chunk-App-Cn-3QPmF.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d350f6oe16dzvq.cloudfront.net/packs/v3/chunk-AvatarUser-DG1bzJ1K.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d350f6oe16dzvq.cloudfront.net/packs/v3/chunk-TextInput-BkNC5YWK.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d350f6oe16dzvq.cloudfront.net/packs/v3/chunk-index-D5w31cG_.js" as="script" crossorigin="anonymous"><link rel="stylesheet" href="https://d350f6oe16dzvq.cloudfront.net/packs/v3/App-DODkNxhh.css" media="screen" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" media="all" />
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" crossorigin="anonymous" defer="defer"></script>
+
+</body>
 </html>
