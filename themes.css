@@ -11576,6 +11576,8 @@ to {
 .nav-tabs-alt .nav-link {
     padding: var(--si-nav-tabs-alt-link-padding-y) var(--si-nav-tabs-alt-link-padding-x);
     border-bottom: 1px solid rgba(0, 0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
 }
 .nav-tabs-alt .nav-link.active {
     border-bottom-color: var(--si-nav-tabs-alt-link-active-border-color);
