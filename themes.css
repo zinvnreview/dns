@@ -1873,6 +1873,9 @@ table:not([class]) > :not(caption) > * > * {
     -webkit-overflow-scrolling: touch;
   }
 }
+.text-maincl {
+  color: #fc602e !important;
+}
 .form-label {
   margin-bottom: 0.3125rem;
   font-size: 0.875rem;
