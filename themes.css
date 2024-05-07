@@ -86,7 +86,6 @@ body {
     background-color: var(--si-body-bg);
     -webkit-text-size-adjust: 100%;
     font-weight: 700;
-    font-size: 18px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 hr {
@@ -3003,9 +3002,6 @@ textarea.form-control-lg {
 .nav-tabs .nav-link {
     margin-bottom: calc(-1*var(--si-nav-tabs-border-width));
     background: none;
-    font-size: 18px;
-    font-weight: 900;
-    
     border: var(--si-nav-tabs-border-width) solid rgba(0, 0, 0, 0);
     border-top-left-radius: var(--si-nav-tabs-border-radius);
     border-top-right-radius: var(--si-nav-tabs-border-radius);
@@ -3022,8 +3018,6 @@ textarea.form-control-lg {
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
     color: var(--si-nav-tabs-link-active-color);
     background-color: var(--si-nav-tabs-link-active-bg);
-    font-size: 18px;
-    font-weight: 900;
     border-color: var(--si-nav-tabs-link-active-border-color);
 }
 .nav-tabs .dropdown-menu {
@@ -3128,8 +3122,6 @@ textarea.form-control-lg {
 }
 .navbar-nav .show>.nav-link, .navbar-nav .nav-link.active {
     color: var(--si-navbar-active-color);
-    font-size: 18px;
-    font-weight: 900;
 }
 .navbar-nav .dropdown-menu {
     position: static;
@@ -11583,8 +11575,6 @@ to {
 .nav-tabs-alt .nav-link {
     padding: var(--si-nav-tabs-alt-link-padding-y) var(--si-nav-tabs-alt-link-padding-x);
     border-bottom: 1px solid rgba(0, 0, 0, 0);
-    font-size: 18px;
-    font-weight: 900;
 }
 .nav-tabs-alt .nav-link.active {
     border-bottom-color: var(--si-nav-tabs-alt-link-active-border-color);
