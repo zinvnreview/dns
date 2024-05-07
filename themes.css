@@ -2366,6 +2366,7 @@ textarea.form-control-lg {
     --si-btn-disabled-border-color: #fff;
 }
 .btn-dark {
+    padding: 10px;
     --si-btn-color: #fff;
     --si-btn-bg: #0b0f19;
     --si-btn-border-color: #0b0f19;
@@ -14014,6 +14015,7 @@ img-comparison-slider:focus {
     --si-btn-disabled-color: rgba(255, 255, 255, .5);
 }
 .dark-mode .btn-dark {
+    padding: 10px;
     --si-btn-color: #33354d !important;
     --si-btn-hover-color: #33354d !important;
     --si-btn-active-color: #33354d !important;
