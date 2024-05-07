@@ -10972,6 +10972,7 @@ html:not([dir=rtl]) .range-slider-ui.noUi-horizontal .noUi-handle {
     --si-btn-disabled-color: #fff;
 }
 .btn-dark {
+    padding: 10px;
     --si-btn-hover-color: #fff;
     --si-btn-active-color: #fff;
     --si-btn-hover-bg: black;
