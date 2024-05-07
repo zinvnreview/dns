@@ -16940,3 +16940,6 @@ hr + .h6,
 .dark-mode .sidebar-blog .widget_rss .widget-title + ul li > a {
   color: #fff;
 }
+.text-maincl{
+	color: #fc602e;
+}
