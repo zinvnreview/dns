@@ -1721,7 +1721,7 @@ a:hover {
 }
 .hero .bg,
 .hero .bg2 {
-  background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+  background-color: linear-gradient(90deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
   background-position: top center;
   position: relative;
   background-size: cover;
