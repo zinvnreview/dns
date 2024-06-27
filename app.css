@@ -1716,12 +1716,17 @@ a:hover {
 }
 .hero .bg,
 .hero .bg2 {
-  background-color: linear-gradient(90deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%) !important; 
+  /* background-color: linear-gradient(90deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%) !important;  */
+  background-position: top center;
+  position: relative;
+  background-image: url(https://t3.ftcdn.net/jpg/06/17/02/90/360_F_617029052_963IucmI1GE8fTgR5U8HDGyEDBbMwQZt.jpg);
+  background-repeat: no-repeat;
   background-position: top center;
   position: relative;
   background-size: cover;
 }
 .hero .bg2 {
+  background-image: url(https://t3.ftcdn.net/jpg/06/17/02/90/360_F_617029052_963IucmI1GE8fTgR5U8HDGyEDBbMwQZt.jpg);
 }
 .hero .max {
   max-width: 650px;
