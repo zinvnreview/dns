@@ -1723,6 +1723,11 @@ a:hover {
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
+  background: linear-gradient(
+    to bottom,
+    var(--black2,) 0%,
+    transparent 100%
+  ) ;
 }
 .hero .bg2 {
   background-image: url(https://t3.ftcdn.net/jpg/06/17/02/90/360_F_617029052_963IucmI1GE8fTgR5U8HDGyEDBbMwQZt.jpg);
