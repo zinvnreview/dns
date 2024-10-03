@@ -3214,7 +3214,7 @@ textarea.form-control-lg {
     transition: none;
 }
 .navbar-expand-sm .offcanvas .offcanvas-header {
-    /* display: none; */
+    display: none;
 }
 .navbar-expand-sm .offcanvas .offcanvas-body {
     display: flex;
