@@ -487,7 +487,7 @@ progress {
     padding: .5rem;
     background-color: var(--si-body-bg);
     border: 0 solid var(--si-border-color);
-    border-radius: var(--si-border-radius-lg);
+    /* border-radius: var(--si-border-radius-lg); */
     box-shadow: 0 .275rem .75rem -0.0625rem rgba(11, 15, 25, .06), 0 .125rem .4rem -0.0625rem rgba(11, 15, 25, .03);
     max-width: 100%;
     height: auto;
