@@ -10441,7 +10441,8 @@ body {
 }
 .page-wrapper {
     flex: 1 0 auto;
-    background: #ffba08;
+    background: #fbc982
+    ;
 }
 .footer {
     flex-shrink: 0;
