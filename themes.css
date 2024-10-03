@@ -11999,7 +11999,7 @@ to {
     background: var(--si-dropdown-bg);
 }
 .navbar-expand-xl .dropdown-menu.show {
-    display: none;
+    /* display: none; */
 }
 .navbar-expand-xl .dropdown::before {
     position: absolute;
